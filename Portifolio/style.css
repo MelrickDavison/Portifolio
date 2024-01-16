@@ -1,0 +1,133 @@
+body{
+    background-color: #10378a;
+    padding-top: 7%;
+}
+.container{
+    
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header{
+    background-color: #000c55;
+    position: fixed;
+    display: flex;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-bottom: 6%;
+    align-items: center;
+    box-shadow: 0px 10px 20px rgb(15, 15, 15);
+}
+
+.header-icons{
+position: relative;
+left: 900px;
+padding: 14px;
+}
+.header-title{
+    color: white;
+    font-size: 40px;
+    padding-left: 50px;
+}
+.icon-redes{
+    padding: 14px;
+    width: 40px;
+    height: 40px;
+}
+
+.img-icon{
+    margin-top: 15px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.imgPerfil{
+    border-radius: 450px;
+    border: 1px solid  rgba(32, 32, 32, 0.884);
+    box-shadow: 9px 9px 9px  rgba(32, 32, 32, 0.884);
+    height: 450px;
+    margin: 10px;
+}
+
+.title{
+    width: 600px;
+    font-size: 74px;
+    padding-left: 70px;
+    color: white;
+}
+
+.container-start{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.container-text{
+    text-align: justify;
+    font-size: 24px;
+    color: white;
+    padding: 30px;
+    width: 1000px;
+    align-items: center;
+    align-content: center;
+    margin-left: 150px;
+    text-indent: 30px;
+}
+
+.subtitle{
+    font-size: 65px;
+    color: white;
+
+}
+
+.container-conhecimentos{
+    color: white;
+}
+
+.container-item-conhecimento{
+    margin-left: 100px;
+    margin-top: -60px;
+    display: inline-flex;
+}
+
+.item-conhecimento{
+    margin: 15px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 25%;
+    background-color:#000c55;
+    box-shadow: 5px 6px 20px rgb(15, 15, 15);
+    ;
+}
+
+
+.container-habilidades{
+    color: white;
+}
+
+.container-item-habilidade{
+    margin-left: 100px;
+    margin-top: -60px;
+    display: inline-flex;
+}
+
+.item-habilidade{
+    margin: 15px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    background-color:#000c55;
+    box-shadow: 5px 6px 20px rgb(15, 15, 15);
+    ;
+}

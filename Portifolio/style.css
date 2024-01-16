@@ -10,8 +10,9 @@ body{
 }
 
 .header{
+    justify-content: space-around;
     background-color: #000c55;
-    position: fixed;
+    position: absolute;
     display: flex;
     left: 0;
     top: 0;
@@ -21,15 +22,27 @@ body{
     box-shadow: 0px 10px 20px rgb(15, 15, 15);
 }
 
+.nav{
+    display: inline-flex;
+    
+}
+
+.a-nav{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
 .header-icons{
 position: relative;
-left: 900px;
+
 padding: 14px;
 }
 .header-title{
     color: white;
     font-size: 40px;
-    padding-left: 50px;
+  
 }
 .icon-redes{
     padding: 14px;
@@ -55,12 +68,13 @@ padding: 14px;
 .title{
     width: 600px;
     font-size: 74px;
-    padding-left: 70px;
     color: white;
+    margin-left: -50px;
 }
 
 .container-start{
-    margin-top: 20px;
+    justify-content: space-around;
+    margin-top: 30px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -71,7 +85,7 @@ padding: 14px;
     text-align: justify;
     font-size: 24px;
     color: white;
-    padding: 30px;
+    margin-top: 60px;
     width: 1000px;
     align-items: center;
     align-content: center;
@@ -82,6 +96,8 @@ padding: 14px;
 .subtitle{
     font-size: 65px;
     color: white;
+    padding-left: 50px;
+    margin-top: 100px;
 
 }
 
@@ -105,7 +121,7 @@ padding: 14px;
     border-radius: 25%;
     background-color:#000c55;
     box-shadow: 5px 6px 20px rgb(15, 15, 15);
-    ;
+
 }
 
 
